@@ -1,0 +1,13 @@
+<h1>Here you can edit or delete a lover</h1>
+<h3>Delete for: <h2 class="confirm"><%= @todo.chore %></h2></h3>
+
+<p>
+  <form action="/todos/<%= @todo.id %>/delete" method="POST">
+    <input type="hidden" name="_method" value="DELETE">
+    <input type="submit" value="Delete">
+  </form>
+<br />
+
+<p>
+<a href="/todos/<%=@todo.id%>/edit">Edit Lover(s)</a>
+</p>

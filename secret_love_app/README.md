@@ -1,7 +1,7 @@
+
 #Sinatra Project (Secret Love)
 
-is a Sinatra application using MVC structure. The application used database sqlite3 to store users information and todos list.
-ActiveRecord has been used to set the associations relationship
+is a Sinatra application using MVC structure. The application used database sqlite3 to store users information and todos list. ActiveRecord has been used to set the associations relationship
 
 The application is designed to let the user to :
 - Create a new account and sign-in

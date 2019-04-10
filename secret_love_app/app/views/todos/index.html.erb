@@ -1,0 +1,12 @@
+<h1></h1>
+<h1>Welcome to Your Secret Lovers</h1>
+  <ol>
+  <% Array(@todos).each do |todo|%>
+    <li>
+      <a href="/todos/<%= todo.id%>">
+        <%=todo.chore%>
+      </a>
+    </li>
+    <%end%>
+  </ol>
+<br />
